@@ -8,4 +8,4 @@ RUN npm install
 # Expose the port.
 EXPOSE 3000
 
-CMD ["npm", "run", "build"]
+CMD ["npm", "start"]
