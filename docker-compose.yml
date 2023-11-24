@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  reactui:
+    build: .
+    container_name: reactui
+    ports:
+      - "3000:3000"
+    stdin_open: true
+    tty: true
